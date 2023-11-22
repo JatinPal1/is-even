@@ -10,5 +10,6 @@
 var isOdd = require('is-odd');
 
 module.exports = function isEven(i) {
+  console.log("Jatin");
   return !isOdd(i);
 };
